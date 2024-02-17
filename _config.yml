@@ -7,7 +7,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Jingfeng Wang / Homepage"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -23,7 +23,7 @@ author:
   avatar           : "myPortrait.png"
   name             : "Jingfeng Wang"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "I am currently a Ph.D. student in University of Macau"
   location         : "Earth"
   employer         : "University of Macau"
   uri              : https://shankswang953.github.io/
