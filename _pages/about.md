@@ -29,7 +29,7 @@ In actual applications, the target functionals are much more complicated than th
 
 The existing framework, built on steady Euler equations and mirror reflection boundary conditions, offers a foundation. However, the intricacies of airfoil shape optimization demand a deeper dive, particularly into boundary layer issues. Our ambition is to incorporate more sophisticated models, including Navier-Stokes and Boltzmann equations, to capture the nuanced impacts on geometry more accurately. 
 
-**Machine learning in PDE fields**
+**Machine Learning in PDE Fields**
 
 I believe machine learning is a competitive technique in numerical calculation. I prefer to integrate machine learning with classical methods instead of substituting them. For example, I use the convolutional neural network to enhance the mesh adaptation but remain the solver for the governing equations. Currently, I am exploring reinforcement learning for optimization and trying to enhance such a process by classical method-informed learning frameworks. For example, the shape optimization of airfoil based on the CFD model and geometrical optimization of a molecule based on the DFT model.
 
@@ -39,5 +39,12 @@ I believe machine learning is a competitive technique in numerical calculation. 
     <figcaption> Optimized from NACA0012 with different obejectives. Left: minimize drag, Right: Maximize lift-drag ratio.</figcaption>
 </figure>
 
+In order to make the optimization more effective, my research focused on the following aspects:
 
+* Multi-agent Exploration
 
+The advent of multi-agent training offers a promising avenue for enhancing the efficiency of data accumulation in reinforcement learning, a field traditionally hampered by the extensive data demands of its exploration phase. Besides, this tenique can naturally integrate the conventional optimization method like the adjoint method within the learning framework. 
+
+* Fusion of Data-Driven Discretization and Conventional Numerical Methods
+
+I believe the conventional numerical method is indispensable for developing a highly efficient solver even within a learning framework. With the help of classical framework, we can design more resonable network structures. During the optimization process, a credible solver is the foundation to conduct further calculation. For example, the rotational and translational invariance in molecular design, non-smooth geometry for airfoil design may suffer a lot from a pure learning-based solver. However, the speed of machine learning method is attractive to develop the optimization algorithm. Then, I am also woking on the data-driven discretization to make the calculation more quickly.
