@@ -27,10 +27,17 @@ In actual applications, the target functionals are much more complicated than th
 
 * Incorporation of More Realistic Scenarios
 
-The existing framework, built on steady Euler equations and mirror reflection boundary conditions, offers a foundation. However, the intricacies of airfoil shape optimization demand a deeper dive, particularly into boundary layer issues. Our ambition is to incorporate more sophisticated models, including Navier-Stokes and Boltzmann equations, to capture the nuanced impacts on geometry more accurately.
-
-
+The existing framework, built on steady Euler equations and mirror reflection boundary conditions, offers a foundation. However, the intricacies of airfoil shape optimization demand a deeper dive, particularly into boundary layer issues. Our ambition is to incorporate more sophisticated models, including Navier-Stokes and Boltzmann equations, to capture the nuanced impacts on geometry more accurately. 
 
 **Machine learning in PDE fields**
 
-I view machine learning as a potent adjunct to numerical computation, preferring to amalgamate it with traditional methodologies rather than replace them. Presently, my research ventures into utilizing reinforcement learning for optimization, with an emphasis on augmenting such processes through classical method-informed learning frameworks. Notably, my projects include airfoil shape optimization leveraging CFD models and molecular geometrical optimization informed by DFT models.
+I believe machine learning is a competitive technique in numerical calculation. I prefer to integrate machine learning with classical methods instead of substituting them. For example, I use the convolutional neural network to enhance the mesh adaptation but remain the solver for the governing equations. Currently, I am exploring reinforcement learning for optimization and trying to enhance such a process by classical method-informed learning frameworks. For example, the shape optimization of airfoil based on the CFD model and geometrical optimization of a molecule based on the DFT model.
+
+<figure>
+    <img src="../images/minDrag.png" alt=",minDrag" style="width:48%;">
+    <img src="../images/maxRatio.png" alt="maxRatio" style="width:48%;">
+    <figcaption> Optimized from NACA0012 with different obejectives. Left: minimize drag, Right: Maximize lift-drag ratio.</figcaption>
+</figure>
+
+
+
