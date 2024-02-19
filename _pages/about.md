@@ -16,7 +16,7 @@ A key focus of my research is the development of mesh adaptation methods designe
 <figure>
     <img src="../images/precision.png" alt="Error" style="width:48%;">
     <img src="../images/time4dual.png" alt="Time" style="width:48%;">
-    <figcaption>Compared with the conventional GMG solver, the CNNs solver saves time significantly while preserving the accuracy of target functional.</figcaption>
+    <figcaption>The CNNs solver saves time significantly while preserving the accuracy of target functional.</figcaption>
 </figure>
 
 Despite the strides made in developing such a powerful solver, challenges persist that necessitate further enhancements.Following aspects are those I am working on and should be improved upon in the future:
