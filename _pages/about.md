@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-My research interests span across numerical methods for partial differential equations (PDEs), machine learning, and optimization.
+My research interests range from numerical methods for partial differential equations (PDEs), machine learning, and optimization.
 
 **Numerical Methods in PDEs**
 
