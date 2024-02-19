@@ -11,11 +11,11 @@ My research interests span across numerical methods for partial differential equ
 
 **Numerical Methods in PDEs**
 
-A key focus of my research is the development of mesh adaptation methods designed to fulfill a variety of computational needs. During my Ph.D. studies, I embarked on research into adjoint-based mesh adaptation. Here, I innovated a dual consistent automatic mesh adaptation method predicated on the steady Euler equations within AFVM4CFD, a library our group maintains. Furthermore, I introduced a hybrid approach combining Convolutional Neural Networks (CNNs) and a Dual solver to expedite the mesh adaptation process.
+A key focus of my research is the development of mesh adaptation methods designed to fulfill a variety of computational needs. During my Ph.D. studies, I embarked on research into adjoint-based mesh adaptation. I developed a dual consistent automatic mesh adaptation method based on the steady Euler equations within AFVM4CFD, a library our group maintains. Furthermore, I introduced a hybrid approach combining Convolutional Neural Networks (CNNs) and a Dual solver to expedite the mesh adaptation process.
 
 <figure>
-    <img src="../image/precision.png" alt="Error" style="width:48%;">
-    <img src="../image/time4dual.png" alt="Time" style="width:48%;">
+    <img src="precision.png" alt="Error" style="width:48%;">
+    <img src="time4dual.png" alt="Time" style="width:48%;">
     <figcaption>Figure 1: Image 1 and Image 2.</figcaption>
 </figure>
 
