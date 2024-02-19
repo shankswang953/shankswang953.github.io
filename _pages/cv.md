@@ -11,35 +11,18 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Applied Mathematics, University of Macau, 2020 - 2024 (expected)
+* B.S. in Mathematics, Sichuan University, 2016 - 2020
+
+Visiting experience
+======
+* Sep, 2018 - Jan, 2019: Visiting student, Peking University in Mathematics
+
+* Jul, 2018 - Aug, 2018: Visiting student, Xiamen University in Mathematics
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 2020 - 2024 Teaching Assistant: University of Macau
 
 Publications
 ======
@@ -59,6 +42,11 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Awards
 ======
-* Currently signed in to 43 different slack teams
+2022 : **Best Poster Award at workshop "A Math Day in the Greater Bay Area 2022"**, with the poster entitled Dual consistency in DWR-based mesh adaptation for Euler equations, University of Macau.
+
+2020 : **Honorary degree**, Sichuan University.
+
+2019 : **Outstanding Graduate Cadre**, Sichuan University. 
+
