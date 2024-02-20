@@ -11,9 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D. in Applied Mathematics, University of Macau, 2020 - 2024 (expected)
-
-Supervisor : [Prof. Guanghui Hu](https://ghhu.github.io)
+* Ph.D. in Applied Mathematics, University of Macau, 2020 - 2024 (expected), Supervisor : [Prof. Guanghui Hu](https://ghhu.github.io)
 
 * B.S. in Mathematics, Sichuan University, 2016 - 2020
 
