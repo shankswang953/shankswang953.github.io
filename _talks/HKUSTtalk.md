@@ -5,7 +5,7 @@ type: "HKUST SIAM Student Chapter Annual Meeting"
 permalink: /talks/HKUSTtalk
 venue: The Hong Kong University Of Science And Technology"
 date: 2023-06-05
-location: "HL S.A.R."
+location: "HK S.A.R."
 ---
 
 This talk is about how we use the CNNs-Dual to acclerate our mesh adaptation process.
