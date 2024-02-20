@@ -2,8 +2,8 @@
 title: "Towards the efficient calculation of quantity of interest from steady Euler equations I: a dual-consistent DWR-based h-adaptive Newton-GMG solver"
 #collection: publications
 permalink: /publication/towards2023
-excerpt: 'This paper is about the dual consistency implemented within AFVM4CFD.'
-#date: 2009-10-01
+excerpt: 'This paper is about the dual consistent DWR-based mesh adaptation implemented within AFVM4CFD.'
+date: 2023-12-01
 venue: 'Communications in Computational Physics'
 status: "accepted"
 #paperurl: 'http://academicpages.github.io/files/paper1.pdf'
