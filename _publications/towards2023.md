@@ -4,7 +4,7 @@ title: "Towards the efficient calculation of quantity of interest from steady Eu
 permalink: /publication/towards2023
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 #date: 2009-10-01
-venue: 'CiCP'
+venue: 'Communications in Compu- tational Physics'
 status: "accepted"
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 ---
