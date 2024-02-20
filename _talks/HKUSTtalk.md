@@ -3,7 +3,7 @@ title: "Towards automatic highly efficient DWR-based h-adaptive method in Newton
 collection: talks
 type: "HKUST SIAM Student Chapter Annual Meeting"
 permalink: /talks/HKUSTtalk
-venue: The Hong Kong University Of Science And Technology"
+venue: The Hong Kong University Of Science And Technology
 date: 2023-06-05
 location: "HK S.A.R."
 ---
