@@ -1,11 +1,11 @@
 ---
-title: "Conference Proceeding talk 3 on Relevant Topic in Your Field"
+title: "Towards automatic highly efficient DWR-based h-adaptive method in Newton-GMG framework for steady Euler equa- tions"
 collection: talks
-type: "Conference proceedings talk"
+type: "HKUST SIAM Student Chapter Annual Meeting"
 permalink: /talks/HKUSTtalk
-venue: "Testing Institute of America 2014 Annual Conference"
-date: 2014-03-01
-location: "Los Angeles, CA"
+venue: The Hong Kong University Of Science And Technology"
+date: 2023
+location: "HL S.A.R."
 ---
 
 This talk is about how we use the CNNs-Dual to acclerate our mesh adaptation process.
