@@ -4,7 +4,7 @@ collection: talks
 type: "HKUST SIAM Student Chapter Annual Meeting"
 permalink: /talks/HKUSTtalk
 venue: The Hong Kong University Of Science And Technology"
-date: 2023
+date: 2023-06-05
 location: "HL S.A.R."
 ---
 

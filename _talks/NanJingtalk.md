@@ -4,7 +4,7 @@ collection: talks
 type: "The 20th Symposium on Numerical Methods of Fluid Mechanics."
 permalink: /talks/NanJingtalk
 venue: ""
-date: 2023
+date: 2023-04-02
 location: "Nanjing, Jiangsu province"
 ---
 

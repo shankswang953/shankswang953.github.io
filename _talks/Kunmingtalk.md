@@ -4,7 +4,7 @@ collection: talks
 type: "The 21st Annual Meeting of the Chinese Society of Industrial and Applied Mathematics."
 permalink: /talks/Kunmingtalk
 venue: ""
-date: 2023
+date: 2023-10-14
 location: "Kunming, Jiangsu Province"
 ---
 
