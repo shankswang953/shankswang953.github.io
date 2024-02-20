@@ -1,9 +1,9 @@
 ---
-title: "Towards automatic highly efficient DWR-based h-adaptive method in Newton-GMG framework for steady Euler equa- tions"
+title: "Towards automatic highly efficient DWR-based h-adaptive method in Newton-GMG framework for steady Euler equations"
 collection: talks
 type: "HKUST SIAM Student Chapter Annual Meeting"
 permalink: /talks/HKUSTtalk
-venue: The Hong Kong University Of Science And Technology
+venue: The Hong Kong University of Science and Technology
 date: 2023-06-05
 location: "HK S.A.R."
 ---
