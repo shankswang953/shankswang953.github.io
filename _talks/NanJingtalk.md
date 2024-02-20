@@ -3,7 +3,7 @@ title: "On towards dual consistency of a DWR-based h-adaptive Newton-GMG framewo
 collection: talks
 type: "The 20th Symposium on Numerical Methods of Fluid Mechanics."
 permalink: /talks/NanJingtalk
-venue: #""
+venue: "Golden Eagle Shangmei Hotel"
 date: 2023-04-02
 location: "Nanjing, Jiangsu Province"
 ---

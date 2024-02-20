@@ -3,7 +3,7 @@ title: "A hybrid CNNs-Dual approach for DWR-based mesh adaptation for solving st
 collection: talks
 type: "The 21st Annual Meeting of the Chinese Society of Industrial and Applied Mathematics."
 permalink: /talks/Kunmingtalk
-venue:# ""
+venue: "Yunnan Haigeng Hall"
 date: 2023-10-14
 location: "Kunming, Jiangsu Province"
 ---
