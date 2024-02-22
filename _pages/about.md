@@ -36,7 +36,7 @@ I believe machine learning is a competitive technique in numerical calculation. 
 <figure>
     <img src="../images/minDrag.png" alt=",minDrag" style="width:48%;">
     <img src="../images/maxRatio.png" alt="maxRatio" style="width:48%;">
-    <figcaption> Optimized from NACA0012 with different obejectives. Left: minimize drag, Right: Maximize lift-drag ratio.</figcaption>
+    <figcaption> Optimized from NACA0012 with different obejectives. Left: minimize drag, Right: maximize lift-drag ratio.</figcaption>
 </figure>
 
 In order to make the optimization more effective, my research focused on the following aspects:
