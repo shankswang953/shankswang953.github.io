@@ -47,7 +47,7 @@ Awards
 ======
 2022 : **Best Poster Award at workshop "A Math Day in the Greater Bay Area 2022"**, with the poster entitled Dual consistency in DWR-based mesh adaptation for Euler equations, University of Macau.
 
-2020 : **Honorary degree**, Sichuan University.
+2020 : **Honours degree**, Sichuan University.
 
 2019 : **Outstanding Graduate Cadre**, Sichuan University. 
 
