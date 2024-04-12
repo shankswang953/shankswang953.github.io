@@ -30,6 +30,13 @@ Despite the strides made in developing such a powerful solver, challenges persis
 
 In actual applications, the target functionals are much more complicated than the drag or lift calculation. However, theoretical analysis can not guanrantee the framework can be generalized to nonlinear and composite target functionals. Thus, multi-mesh is a potential method that can fufill the requirements.
 
+<figure>
+    <img src="../images/commonlift.png" alt="Dual of lift" style="width:48%;">
+    <img src="../images/commondrag.png" alt="Dual of drag" style="width:48%;">
+    <figcaption>The dual solutions are calculated with multi-mesh process.</figcaption>
+</figure>
+
+
 * Incorporation of More Realistic Scenarios
 
 The existing framework, built on steady Euler equations and mirror reflection boundary conditions, offers a foundation. However, the intricacies of airfoil shape optimization demand a deeper dive, particularly into boundary layer issues. Our ambition is to incorporate more sophisticated models, including Navier-Stokes and Boltzmann equations, to capture the nuanced impacts on geometry more accurately. 
