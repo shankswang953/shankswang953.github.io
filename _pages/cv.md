@@ -17,6 +17,9 @@ Education
 
 Visiting experience
 ======
+* Jan, 2024: Teaching assistant, Xiamen University in Mathematics
+		A seminar in Tianyuan center for Mathematics
+
 * Sep, 2018 - Jan, 2019: Visiting student, Peking University in Mathematics
 
 * Jul, 2018 - Aug, 2018: Visiting student, Xiamen University in Mathematics
