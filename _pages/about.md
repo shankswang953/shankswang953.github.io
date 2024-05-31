@@ -12,7 +12,7 @@ I am Jingfeng Wang, currently a Ph.D. candidate at University of Macau. I am dee
 ## Research Interest
 
 
-My research interests range from numerical methods for partial differential equations, optimization and machine learning.
+My research interests range from analysis and numerical methods for partial differential equations, optimization and machine learning.
 
 **Numerical Methods in PDEs**
 
