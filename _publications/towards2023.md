@@ -3,7 +3,7 @@ title: "Towards the efficient calculation of quantity of interest from steady Eu
 #collection: publications
 permalink: /publication/towards2023
 excerpt: 'This paper is about the dual consistent DWR-based mesh adaptation implemented within AFVM4CFD.'
-date: 2024-3
+date: 2023-12-20
 venue: 'Communications in Computational Physics, Vol. 35, No. 3, pp. 579-608, '
 status: "published"
 paperurl: 'doi: 10.4208/cicp.OA-2023-0196'
