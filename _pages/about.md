@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Jingfeng Wang, currently a Ph.D. candidate at University of Macau. I am deeply passionate about the fields of Partial Differential Equations, Optimization, and Machine Learning. My academic and research endeavors have been centered around exploring the intricate connections and potential applications that lie at the intersection of these areas. I warmly welcome discussions, collaborations, and exchanges of ideas with fellow enthusiasts and professionals who share similar interests.
+I am Jingfeng Wang, currently a postdoctoral research scholar at the North Carolina State University. I obtained my Ph.D. degree in University of Macau in 2024. Prior to this, I obtained my bachelor degree from Sichuan University in 2020. I am deeply passionate about the fields of Partial Differential Equations, Optimization, and Machine Learning. My academic and research endeavors have been centered around exploring the intricate connections and potential applications that lie at the intersection of these areas. I warmly welcome discussions, collaborations, and exchanges of ideas with fellow enthusiasts and professionals who share similar interests.
 
 ## Research Interest
 
