@@ -32,9 +32,9 @@ Visiting experience
 
 Work experience
 ======
-* 2024 - present Postdoctoral Research Scholar: North Carolina State University
+* 2024 - present: Postdoctoral Research Scholar: North Carolina State University
 
-* 2020 - 2024 Teaching Assistant: University of Macau
+* 2020 - 2024: Teaching Assistant: University of Macau
 
 Publications
 ======
