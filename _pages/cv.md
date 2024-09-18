@@ -15,6 +15,12 @@ Education
 
 * B.S. in Mathematics, Sichuan University, 2016 - 2020
 
+Work experience
+======
+* 2024 - present: Postdoctoral Research Scholar: North Carolina State University
+
+* 2020 - 2024: Teaching Assistant: University of Macau
+
 Visiting experience
 ======
 * Aug., 2024: Visiting scholar, UIC Institute for Advanced Study, Zhuhai, China.
@@ -30,11 +36,6 @@ Visiting experience
 
 * Jul., 2018 - Aug., 2018: Visiting student, Xiamen University in Mathematics, Beijing, China.
 
-Work experience
-======
-* 2024 - present: Postdoctoral Research Scholar: North Carolina State University
-
-* 2020 - 2024: Teaching Assistant: University of Macau
 
 Publications
 ======
