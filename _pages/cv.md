@@ -11,23 +11,29 @@ redirect_from:
 
 Education
 ======
-* Ph.D. in Applied Mathematics, University of Macau, 2020 - 2024 (expected), Supervisor : [Prof. Guanghui Hu](https://ghhu.github.io)
+* Ph.D. in Applied Mathematics, University of Macau, 2020 - 2024, Supervisor : [Prof. Guanghui Hu](https://ghhu.github.io)
 
 * B.S. in Mathematics, Sichuan University, 2016 - 2020
 
 Visiting experience
 ======
-* Apr., 2024: Visiting student, Chinese Academy of Science.
+* Aug., 2024: Visiting scholar, UIC Institute for Advanced Study, Zhuhai, China.
+
+* Jul., 2024: Visiting student, National University of Singapore in Mathematics, Summer School in conjunction with SciCADE, Singapore.
+
+* Apr., 2024: Visiting student, Chinese Academy of Science, Beijing, China.
 
 * Jan., 2024: Teaching assistant, Xiamen University in Mathematics,
-		A seminar in Tianyuan center for Mathematics.
+		A seminar in Tianyuan center for Mathematics, Xiamen, China.
 
-* Sep., 2018 - Jan., 2019: Visiting student, Peking University in Mathematics.
+* Sep., 2018 - Jan., 2019: Visiting student, Peking University in Mathematics, Beijing, China.
 
-* Jul., 2018 - Aug., 2018: Visiting student, Xiamen University in Mathematics.
+* Jul., 2018 - Aug., 2018: Visiting student, Xiamen University in Mathematics, Beijing, China.
 
 Work experience
 ======
+* 2024 - present Postdoctoral Research Scholar: North Carolina State University
+
 * 2020 - 2024 Teaching Assistant: University of Macau
 
 Publications
