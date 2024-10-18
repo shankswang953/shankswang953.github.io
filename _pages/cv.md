@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Jingfeng Wang's CV"
+title: "Jingfeng's CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
