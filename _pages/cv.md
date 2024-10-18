@@ -38,9 +38,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Awards
-
-======
+# Awards
 
 2022 : **Best Poster Award at workshop "A Math Day in the Greater Bay Area 2022"**, with the poster entitled Dual consistency in DWR-based mesh adaptation for Euler equations, University of Macau.
 
