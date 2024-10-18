@@ -3,5 +3,5 @@ collection: talks
 type: "The 3rd Guangdong-Hong Kong-Macao Conference on Computational Science."
 permalink: /talks/yuegangao
 venue: Shantou, Guangdong province.
-date: 2023-06-05
+date: 2024-06-15
 location: "Shantou, Guangdong province, P. R. China"
