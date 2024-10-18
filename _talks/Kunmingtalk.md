@@ -5,7 +5,6 @@ type: "The 21st Annual Meeting of the Chinese Society of Industrial and Applied 
 permalink: /talks/Kunmingtalk
 venue: "Yunnan Haigeng Hall"
 date: 2023-10-14
-location: "Kunming, Jiangsu Province"
+location: "Kunming, Jiangsu Province, P.R.China"
 ---
-
 In this talk, we introduce how we start from the dual consistency and implement the algorithm in AFVM4CFD. Then we developed the CNNs-Dual algorithm and designed automatic technique for the calculation. In order to accelerate the whole algorithm, we further constructed the parallel section.
