@@ -6,60 +6,44 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
 {% include base_path %}
 
 Education
-======
-* Ph.D. in Applied Mathematics, University of Macau, 2020 - 2024, Supervisor : [Prof. Guanghui Hu](https://ghhu.github.io)
+=========
 
+* Ph.D. in Applied Mathematics, University of Macau, 2020 - 2024, Supervisor : [Prof. Guanghui Hu](https://ghhu.github.io)
 * B.S. in Mathematics, Sichuan University, 2016 - 2020
 
 Work experience
-======
-* 2024 - present: Postdoctoral Research Scholar: North Carolina State University
+===============
 
+* 2024 - present: Postdoctoral Research Scholar: North Carolina State University
 * 2020 - 2024: Teaching Assistant: University of Macau
 
 Visiting experience
-======
+===================
+
 * Aug., 2024: Visiting scholar, UIC Institute for Advanced Study, Zhuhai, China.
-
 * Jul., 2024: Visiting student, National University of Singapore in Mathematics, Summer School in conjunction with SciCADE, Singapore.
-
 * Apr., 2024: Visiting student, Chinese Academy of Science, Beijing, China.
-
 * Jan., 2024: Teaching assistant, Xiamen University in Mathematics,
-		A seminar in Tianyuan center for Mathematics, Xiamen, China.
-
+  A seminar in Tianyuan center for Mathematics, Xiamen, China.
 * Sep., 2018 - Jan., 2019: Visiting student, Peking University in Mathematics, Beijing, China.
-
 * Jul., 2018 - Aug., 2018: Visiting student, Xiamen University in Mathematics, Beijing, China.
 
-
 Publications
-======
-  <ul>{% for post in site.publications reversed %}
+============
+
+<ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+
 Awards
+
 ======
+
 2022 : **Best Poster Award at workshop "A Math Day in the Greater Bay Area 2022"**, with the poster entitled Dual consistency in DWR-based mesh adaptation for Euler equations, University of Macau.
 
 2020 : **Honours degree**, Sichuan University.
 
-2019 : **Outstanding Graduate Cadre**, Sichuan University. 
-
+2019 : **Outstanding Graduate Cadre**, Sichuan University.
