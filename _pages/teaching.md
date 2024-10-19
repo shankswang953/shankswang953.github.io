@@ -11,30 +11,34 @@ author_profile: true
 * **MATH - 1003: Intermediate Calculus (Tutorial Class)**
 
   * Undergraduate course
-  * February 2024
+  * 2024 Spring
 * **MATH - 4000: Elementary Number Theory (Tutorial Class)**
 
   * Undergraduate course
-  * August 2023
+  * 2023 Fall
 * **CISC - 1006: Probability and Statistics (Tutorial Class)**
 
   * Undergraduate course
-  * February 2023
+  * 2023 Spring
 * **MATH - 4000: Elementary Number Theory (Tutorial Class)**
 
   * Undergraduate course
-  * August 2022
+  * 2022 Fall
+* **CISC - 1006: Probability and Statistics (Tutorial Class)**
+
+  * Undergraduate course
+  * 2022 Spring
 * **MATH - 4000: Elementary Number Theory (Tutorial Class)**
 
   * Undergraduate course
-  * August 2021
-* **MATH - 2003: Mathematical Analysis I (Tutorial Class)**
-
-  * Undergraduate course
-  * August 2020
+  * 2021 Fall
 * **MATH - 2004: Mathematical Analysis II (Tutorial Class)**
 
   * Undergraduate course
-  * January 2020
+  * 2021 Spring
+* **MATH - 2003: Mathematical Analysis I (Tutorial Class)**
+
+  * Undergraduate course
+  * 2020 Fall
 
 <!-- Add more teaching entries as needed -->
