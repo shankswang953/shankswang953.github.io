@@ -32,6 +32,10 @@
       <p>Joint work with {{ post.collaborators }}</p>
     {% endif %}
 
+    {% if post.paperurl %}
+      <p><a href="/files/viewer.html?file={{ post.paperurl }}" target="_blank">View paper</a></p>
+    {% endif %}
+
     {% if post.citation and post.status == 'published' %}
       <p>Recommended citation: {{ post.citation }}</p>
     {% endif %}

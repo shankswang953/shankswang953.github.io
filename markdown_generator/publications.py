@@ -92,6 +92,9 @@ for row, item in publications.iterrows():
     if item.status == 'prepare':
         md += f"collaborators: '{item.collaborators}'\n"
     
+    if len(str(item.paper_url)) > 5:
+        md += f"paperurl: '{item.paper_url}'\n"
+    
     md += "---\n\n"
     
     if item.status == 'published':
