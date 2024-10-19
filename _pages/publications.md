@@ -6,8 +6,6 @@ author_profile: true
 ---
 {% include base_path %}
 
-<!-- Your custom markdown content goes here -
-
 
 4. *Guanghui Hu, Ruo Li, **Jingfeng Wang** `<sup>`* `</sup>`*. A multi-mesh approach for accurate computation of multi-target functionals in aerodynamics design, under review
 
@@ -16,5 +14,3 @@ author_profile: true
 2. ***Jingfeng Wang** and Guanghui Hu.* Towards the efficient calculation of quantity of interest from steady Euler equations II: a CNNs-based automatic implementation. *Communications in Computational Physics,* **in press.[link](https://arxiv.org/abs/2308.07140)**
 
 1. ***Jingfeng Wang** and Guanghui Hu.* Towards the efficient calculation of quantity of interest from steady Euler equations I: A dual-consistent dwr-based h-adaptive Newton-GMG solver. *Communications in Computational Physics*, **35(3):579--608, 2024. [link](https://global-sci.com/article/90940/towards-the-efficient-calculation-of-quantity-of-interest-from-steady-euler-equations-i-a-dual-consistent-dwr-based-h-adaptive-newton-gmg-solver)**
-
-<!-- Add more publications as needed --
