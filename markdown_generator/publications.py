@@ -76,7 +76,7 @@ def html_escape(text):
     return "".join(html_escape_table.get(c,c) for c in text)
 
 
-for index, (_, item) in enumerate(publications.iterrows(), start=1):
+ffor index, (_, item) in enumerate(publications.iterrows(), start=1):
     md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
     html_filename = str(item.pub_date) + "-" + item.url_slug
     year = item.pub_date[:4]
