@@ -31,9 +31,9 @@ layout: default
               {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}
               {% if page.paperurl %}
                 <a href="{{ page.paperurl }}" class="link-button">[link]</a>
-              {% endif %}
-            </h1>
-          {% endif %}
+            {% endif %}
+          </h1>
+        {% endif %}
         {% if page.modified %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
