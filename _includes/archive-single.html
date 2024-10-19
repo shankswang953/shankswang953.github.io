@@ -26,14 +26,12 @@
     
     {% if post.status == 'published' %}
       <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+    {% elsif post.status == 'accepted' %}
+      <p>Accepted by <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
     {% elsif post.status == 'reviewing' %}
       <p>Under review</p>
     {% elsif post.status == 'prepare' %}
       <p>Joint work with {{ post.collaborators }}</p>
-    {% endif %}
-
-    {% if post.paperurl %}
-      <p><a href="{{ post.paperurl }}" target="_blank">View paper</a></p>
     {% endif %}
 
     {% if post.citation and post.status == 'published' %}

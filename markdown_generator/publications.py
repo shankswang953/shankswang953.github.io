@@ -81,7 +81,10 @@ for index, (_, item) in enumerate(publications.iterrows(), start=1):
     year = item.pub_date[:4]
     
     md = "---\n"
-    md += f"title: \"{item.title}\"\n"
+    md += f"title: \"{item.title}"
+    if len(str(item.paper_url)) > 5:
+        md += f" [link]({item.paper_url})"
+    md += "\"\n"
     md += "collection: publications\n"
     md += f"permalink: /publication/{html_filename}\n"
     md += f"date: {str(item.pub_date)}\n"
@@ -104,12 +107,4 @@ for index, (_, item) in enumerate(publications.iterrows(), start=1):
         md += f"Accepted by {item.venue}, {year}\n\n"
     elif item.status == 'reviewing':
         md += f"{item.title} [under review]\n\n"
-    elif item.status == 'prepare':
-        md += f"{item.title} [preparation]\n\n"
-        md += f"Joint work with {item.collaborators}\n\n"
-    
-    if item.status in ['published', 'accepted']:
-        md += f"Recommended citation: {item.citation}"
-    
-    with open(f"../_publications/{md_filename}", 'w') as f:
-        f.write(md)
+    elif item.status == 'prepare
