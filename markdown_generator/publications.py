@@ -61,50 +61,49 @@ def html_escape(text):
 
 # In[5]:
 
+import pandas as pd
 import os
+
+publications = pd.read_csv("publications.tsv", sep="\t", header=0)
+
+html_escape_table = {
+    "&": "&amp;",
+    '"': "&quot;",
+    "'": "&apos;"
+    }
+
+def html_escape(text):
+    return "".join(html_escape_table.get(c,c) for c in text)
+
 for row, item in publications.iterrows():
-    
     md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
     html_filename = str(item.pub_date) + "-" + item.url_slug
     year = item.pub_date[:4]
     
-    ## YAML variables
+    md = "---\n"
+    md += f"title: \"{item.title}\"\n"
+    md += "collection: publications\n"
+    md += f"permalink: /publication/{html_filename}\n"
+    md += f"excerpt: '{html_escape(item.excerpt)}'\n"
+    md += f"date: {str(item.pub_date)}\n"
+    md += f"venue: '{html_escape(item.venue)}'\n"
+    md += f"paperurl: '{item.paper_url}'\n"
+    md += f"citation: '{html_escape(item.citation)}'\n"
+    md += f"status: '{item.status}'\n"
     
-    md = "---\ntitle: \""   + item.title + '"\n'
+    if item.status == 'prepare':
+        md += f"collaborators: '{item.collaborators}'\n"
     
-    md += """collection: publications"""
+    md += "---\n\n"
     
-    md += """\npermalink: /publication/""" + html_filename
+    if item.status != 'prepare':
+        md += f"{html_escape(item.excerpt)}\n\n"
     
-    if len(str(item.excerpt)) > 5:
-        md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
+    if item.status == 'published' or (item.status == 'under review' and len(str(item.paper_url)) > 5):
+        md += f"[Download paper here]({item.paper_url})\n\n"
     
-    md += "\ndate: " + str(item.pub_date) 
+    if item.status == 'published':
+        md += f"Recommended citation: {item.citation}"
     
-    md += "\nvenue: '" + html_escape(item.venue) + "'"
-    
-    if len(str(item.paper_url)) > 5:
-        md += f"\n\n<a href='/files/viewer.html?file={item.paper_url}' target='_blank'>View paper here</a>\n"
-    
-    md += "\ncitation: '" + html_escape(item.citation) + "'"
-    
-    md += "\n---"
-    
-    ## Markdown description for individual page
-    
-    if len(str(item.paper_url)) > 5:
-        md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n" 
-        
-    if len(str(item.excerpt)) > 5:
-        md += "\n" + html_escape(item.excerpt) + "\n"
-        
-    md += "\nRecommended citation: " + item.citation
-    
-    md_filename = os.path.basename(md_filename)
-       
-    with open("../_publications/" + md_filename, 'w') as f:
+    with open(f"../_publications/{md_filename}", 'w') as f:
         f.write(md)
-
-
-if len(str(item.paper_url)) > 5:
-    md += "\n[View paper here]({{ site.baseurl }}/files/viewer.html?file=" + item.paper_url + ")\\n"
