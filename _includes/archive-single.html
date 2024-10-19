@@ -33,7 +33,7 @@
     {% endif %}
 
     {% if post.paperurl %}
-      <p><a href="/files/viewer.html?file={{ post.paperurl }}" target="_blank">View paper</a></p>
+      <p><a href="{{ post.paperurl }}" target="_blank">View paper</a></p>
     {% endif %}
 
     {% if post.citation and post.status == 'published' %}
