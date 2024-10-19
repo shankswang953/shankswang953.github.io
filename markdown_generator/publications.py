@@ -75,7 +75,7 @@ html_escape_table = {
 def html_escape(text):
     return "".join(html_escape_table.get(c,c) for c in text)
 
-for row, item in publications.iterrows():
+for index, (_, item) in enumerate(publications.iterrows(), start=1):
     md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
     html_filename = str(item.pub_date) + "-" + item.url_slug
     year = item.pub_date[:4]
@@ -89,19 +89,20 @@ for row, item in publications.iterrows():
     md += f"citation: '{html_escape(item.citation)}'\n"
     md += f"status: '{item.status}'\n"
     
-    if item.status == 'prepare':
-        md += f"collaborators: '{item.collaborators}'\n"
-    
     if len(str(item.paper_url)) > 5:
         md += f"paperurl: '{item.paper_url}'\n"
     
     md += "---\n\n"
     
+    md += f"{index}. "  # Add the index number
+    
     if item.status == 'published':
-        md += f"Published in {item.venue}, {item.pub_date[:4]}\n\n"
+        md += f"{item.title}\n\n"
+        md += f"Published in {item.venue}, {year}\n\n"
     elif item.status == 'reviewing':
-        md += "[under review]\n\n"
+        md += f"{item.title} [under review]\n\n"
     elif item.status == 'prepare':
+        md += f"{item.title} [preparation]\n\n"
         md += f"Joint work with {item.collaborators}\n\n"
     
     if item.status == 'published':
