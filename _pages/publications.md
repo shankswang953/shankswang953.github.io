@@ -1,4 +1,5 @@
 ---
+---
 layout: archive
 title: "Publications"
 permalink: /publications/
@@ -18,3 +19,5 @@ author_profile: true
   </li>
 {% endfor %}
 </ol>
+br
+---
