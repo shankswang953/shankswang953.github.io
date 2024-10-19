@@ -84,10 +84,8 @@ for row, item in publications.iterrows():
     md += f"title: \"{item.title}\"\n"
     md += "collection: publications\n"
     md += f"permalink: /publication/{html_filename}\n"
-    md += f"excerpt: '{html_escape(item.excerpt)}'\n"
     md += f"date: {str(item.pub_date)}\n"
     md += f"venue: '{html_escape(item.venue)}'\n"
-    md += f"paperurl: '{item.paper_url}'\n"
     md += f"citation: '{html_escape(item.citation)}'\n"
     md += f"status: '{item.status}'\n"
     
@@ -96,11 +94,12 @@ for row, item in publications.iterrows():
     
     md += "---\n\n"
     
-    if item.status != 'prepare':
-        md += f"{html_escape(item.excerpt)}\n\n"
-    
-    if item.status == 'published' or (item.status == 'under review' and len(str(item.paper_url)) > 5):
-        md += f"[Download paper here]({item.paper_url})\n\n"
+    if item.status == 'published':
+        md += f"Published in {item.venue}, {item.pub_date[:4]}\n\n"
+    elif item.status == 'reviewing':
+        md += "[under review]\n\n"
+    elif item.status == 'prepare':
+        md += f"Joint work with {item.collaborators}\n\n"
     
     if item.status == 'published':
         md += f"Recommended citation: {item.citation}"
