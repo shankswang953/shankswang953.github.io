@@ -75,7 +75,8 @@ html_escape_table = {
 def html_escape(text):
     return "".join(html_escape_table.get(c,c) for c in text)
 
-for index, (_, item) in enumerate(publications.iterrows(), start=1):
+
+for row, item in publications.iterrows():
     md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
     html_filename = str(item.pub_date) + "-" + item.url_slug
     year = item.pub_date[:4]
@@ -88,29 +89,28 @@ for index, (_, item) in enumerate(publications.iterrows(), start=1):
     md += f"venue: '{html_escape(item.venue)}'\n"
     md += f"citation: '{html_escape(item.citation)}'\n"
     md += f"status: '{item.status}'\n"
+    md += f"venue: '{html_escape(item.venue)}'\n"
+    if item.status == 'prepare':
+        md += f"collaborators: '{item.collaborators}'\n"
     
     if len(str(item.paper_url)) > 5:
         md += f"paperurl: '{item.paper_url}'\n"
-    
+    md += f"{index}. "  # Add the index number
     md += "---\n\n"
-    
-    md += f"{index}. {item.title}"
-    if len(str(item.paper_url)) > 5:
-        md += f" [link]({item.paper_url})"
-    md += "\n\n"
-    
     if item.status == 'published':
-        md += f"Published in {item.venue}, {year}\n\n"
-    elif item.status == 'accepted':
-        md += f"Accepted by {item.venue}, {year}\n\n"
+    if item.status == 'published':
+        md += f"Published in {item.venue}, {item.pub_date[:4]}\n\n"
     elif item.status == 'reviewing':
         md += "[under review]\n\n"
     elif item.status == 'prepare':
-        md += "[preparation]\n\n"
         md += f"Joint work with {item.collaborators}\n\n"
-    
-    if item.status in ['published', 'accepted']:
+        md += f"Joint work with {item.collaborators}\n\n"
+    if item.status == 'published':
         md += f"Recommended citation: {item.citation}"
+        md += f"Recommended citation: {item.citation}"
+    with open(f"../_publications/{md_filename}", 'w') as f:
+        f.write(md)
+        f.write(md)
     
     with open(f"../_publications/{md_filename}", 'w') as f:
         f.write(md)

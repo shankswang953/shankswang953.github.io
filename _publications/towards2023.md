@@ -1,6 +1,6 @@
 ---
 title: "Towards the efficient calculation of quantity of interest from steady Euler equations I: a dual-consistent DWR-based h-adaptive Newton-GMG solver"
-#collection: publications
+collection: publications
 permalink: /publication/towards2023
 #excerpt: 'This paper is about the dual consistent DWR-based mesh adaptation implemented within AFVM4CFD.'
 date: 2023-12-20
