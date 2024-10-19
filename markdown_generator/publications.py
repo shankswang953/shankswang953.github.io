@@ -99,13 +99,16 @@ for index, (_, item) in enumerate(publications.iterrows(), start=1):
     if item.status == 'published':
         md += f"{item.title}\n\n"
         md += f"Published in {item.venue}, {year}\n\n"
+    elif item.status == 'accepted':
+        md += f"{item.title}\n\n"
+        md += f"Accepted by {item.venue}, {year}\n\n"
     elif item.status == 'reviewing':
         md += f"{item.title} [under review]\n\n"
     elif item.status == 'prepare':
         md += f"{item.title} [preparation]\n\n"
         md += f"Joint work with {item.collaborators}\n\n"
     
-    if item.status == 'published':
+    if item.status in ['published', 'accepted']:
         md += f"Recommended citation: {item.citation}"
     
     with open(f"../_publications/{md_filename}", 'w') as f:
