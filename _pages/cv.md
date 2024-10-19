@@ -31,13 +31,6 @@ Visit experience
 * Sep., 2018 - Jan., 2019: Visiting student, Peking University in Mathematics, Beijing, China.
 * Jul., 2018 - Aug., 2018: Visiting student, Xiamen University in Mathematics, Beijing, China.
 
-Publications
-============
-
-<ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
 # Awards
 
 2022 : **Best Poster Award at workshop "A Math Day in the Greater Bay Area 2022"**, with the poster entitled Dual consistency in DWR-based mesh adaptation for Euler equations, University of Macau.
