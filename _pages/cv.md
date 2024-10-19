@@ -20,8 +20,8 @@ Work experience
 * 2024 - present: Postdoctoral Research Scholar: North Carolina State University
 * 2020 - 2024: Teaching Assistant: University of Macau
 
-Visiting experience
-===================
+Visit experience
+================
 
 * Aug., 2024: Visiting scholar, UIC Institute for Advanced Study, Zhuhai, China.
 * Jul., 2024: Visiting student, National University of Singapore in Mathematics, Summer School in conjunction with SciCADE, Singapore.
