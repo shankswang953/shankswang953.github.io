@@ -7,7 +7,7 @@
 
 # Basic Site Settings
 locale                   : "Macao S.A.R."
-title                    : "Jingfeng Wang / Homepage"
+title                    : "Research Interest"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
