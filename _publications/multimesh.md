@@ -2,9 +2,10 @@
 title: "A multi-mesh approach for accurate computation of multi-target functionals in aerodynamics design"
 collection: publications
 permalink: /publication/multimesh
-excerpt: 'This paper is about the CNNs-Dual algorithm.'
-date: 2024-08-15
-venue: ''
-status: "reviewing"
-paperurl:'https://raw.githubusercontent.com/shankswang953/shankswang953.github.io/master/files/towardsII.pdf'
+excerpt: ''
+date: 2025-01-01
+venue: 'Journal of Computational Physics, 535:114054'
+status: "published"
+collaborators: Guanghui Hu, Ruo Li
+paperurl: 'https://doi.org/10.1016/j.jcp.2025.114054'
 ---
