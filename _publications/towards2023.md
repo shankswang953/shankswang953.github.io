@@ -7,5 +7,5 @@ date: 2023-12-20
 venue: 'Communications in Computational Physics, 35(3):579-608'
 status: "published"
 collaborators: Guanghui Hu
-paperurl: 'https://global-sci.com/article/90940/towards-the-efficient-calculation-of-quantity-of-interest-from-steady-euler-equations-i-a-dual-consistent-dwr-based-h-adaptive-newton-gmg-solver'
+paperurl: 'https://www.global-sci.com/cicp/article/view/7242'
 ---

@@ -7,5 +7,5 @@ date: 2026-01-01
 venue: ''
 status: "reviewing"
 collaborators: Zixuan Cang, Xiaoqi Wei, Yanxiang Zhao
-paperurl: 'https://doi.org/10.1016/j.jcp.2025.114054'
+paperurl: 'https://arxiv.org/pdf/2602.18725'
 ---

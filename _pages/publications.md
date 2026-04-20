@@ -21,7 +21,7 @@ author_profile: true
 <ol reversed>
   <li>Yaqi Wu, <strong>Jingfeng Wang</strong>, Xin Maizie Zhou, Yanxiang Zhao, Zixuan Cang (2025). <a href="https://arxiv.org/pdf/2603.18249"><strong>RAFT-UP: robust alignment for spatial transcriptomics under partial-overlapping</strong></a>, Under review.</li>
 
-  <li>Zixuan Cang, <strong>Jingfeng Wang</strong>, Xiaoqi Wei, Yanxiang Zhao (2026). <a href="https://doi.org/10.1016/j.jcp.2025.114054"><strong>Synchronization of Unbalanced Dynamical Optimal Transport across Multiple Spaces</strong></a>, Under review. <em>(Authors listed in alphabetical order)</em></li>
+  <li>Zixuan Cang, <strong>Jingfeng Wang</strong>, Xiaoqi Wei, Yanxiang Zhao (2026). <a href="https://arxiv.org/pdf/2602.18725"><strong>Synchronization of Unbalanced Dynamical Optimal Transport across Multiple Spaces</strong></a>, Under review. <em>(Authors listed in alphabetical order)</em></li>
 
   <li><strong>Jingfeng Wang</strong>, Guanghui Hu (2025). <a href="https://arxiv.org/abs/2403.04329"><strong>A mechanism-driven reinforcement learning framework for shape optimization of airfoils</strong></a>, Under revision by Communications in Computational Physics.</li>
 
@@ -29,5 +29,5 @@ author_profile: true
 
   <li><strong>Jingfeng Wang</strong>, Guanghui Hu (2024). <a href="https://global-sci.com/index.php/cicp/article/view/23494"><strong>Towards the efficient calculation of quantity of interest from steady Euler equations II: a CNNs-based automatic implementation</strong></a>, Communications in Computational Physics, 39(3):884&ndash;918.</li>
 
-  <li><strong>Jingfeng Wang</strong>, Guanghui Hu (2023). <a href="https://global-sci.com/article/90940/towards-the-efficient-calculation-of-quantity-of-interest-from-steady-euler-equations-i-a-dual-consistent-dwr-based-h-adaptive-newton-gmg-solver"><strong>Towards the efficient calculation of quantity of interest from steady Euler equations I: A dual-consistent DWR-based h-adaptive Newton-GMG solver</strong></a>, Communications in Computational Physics, 35(3):579&ndash;608.</li>
+  <li><strong>Jingfeng Wang</strong>, Guanghui Hu (2023). <a href="https://www.global-sci.com/cicp/article/view/7242"><strong>Towards the efficient calculation of quantity of interest from steady Euler equations I: A dual-consistent DWR-based h-adaptive Newton-GMG solver</strong></a>, Communications in Computational Physics, 35(3):579&ndash;608.</li>
 </ol>
