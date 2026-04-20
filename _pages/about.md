@@ -29,7 +29,7 @@ A central theme of my work is **adjoint-based mesh adaptation**. During my Ph.D.
 <figure>
     <img src="../images/qoiLift.png" alt="QoI Lift" style="width:48%;">
     <img src="../images/qoiDrag.png" alt="QoI Drag" style="width:48%;">
-    <figcaption>Convergence of lift (left) and drag (right) under the multi-mesh framework.</figcaption>
+    <figcaption>Lift (left) and drag (right) errors when computing the lift-to-drag ratio. Single-mesh accuracy fluctuates sharply with the lift&ndash;drag weighting (1:1 to 1:500), whereas the multi-mesh framework remains stable and parameter-insensitive.</figcaption>
 </figure>
 
 **Towards more realistic models.** The current framework relies on the steady Euler equations with mirror-reflection boundary conditions. Capturing boundary-layer effects in airfoil shape optimization will require richer models such as Navier&ndash;Stokes and Boltzmann equations.
