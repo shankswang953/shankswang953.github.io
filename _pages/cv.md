@@ -8,17 +8,21 @@ redirect_from:
 ---
 {% include base_path %}
 
+📄 **[Download my full resume (PDF)]({{ base_path }}/files/JingfengWang_Resume.pdf)** &nbsp;&nbsp;|&nbsp;&nbsp; *Last updated: April 2026*
+
+---
+
 Education
 =========
 
-* Ph.D. in Applied Mathematics, University of Macau, 2020 - 2024, Supervisor : [Prof. Guanghui Hu](https://ghhu.github.io)
+* Ph.D. in Applied Mathematics, University of Macau, 2020 - 2024, Supervisor: [Prof. Guanghui Hu](https://ghhu.github.io)
 * B.S. in Mathematics, Sichuan University, 2016 - 2020
 
 Work experience
 ===============
 
-* 2024 - present: Postdoctoral Research Scholar: North Carolina State University
-* 2020 - 2024: Teaching Assistant: University of Macau
+* 2024 - present: Postdoctoral Research Scholar, North Carolina State University, Mentor: [Prof. Zixuan Cang](https://zcang.math.ncsu.edu)
+* 2020 - 2024: Teaching Assistant, University of Macau
 
 Visit experience
 ================
