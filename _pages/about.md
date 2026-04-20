@@ -17,18 +17,12 @@ My work spans **numerical methods for PDEs**, **machine learning in PDE fields**
 
 ### Numerical Methods for PDEs
 
-A central theme of my work is **adjoint-based mesh adaptation**. During my Ph.D. I built an automatic dual-consistent mesh adaptation method for the steady Euler equations within AFVM4CFD (a library maintained by our group), and proposed a hybrid CNN+Dual approach that significantly accelerates the adaptation procedure.
-
-<figure>
-    <img src="../images/precision.png" alt="Error" style="width:48%;">
-    <img src="../images/time4dual.png" alt="Time" style="width:48%;">
-    <figcaption>The CNN-based solver substantially reduces computation time while preserving the accuracy of target functionals.</figcaption>
-</figure>
+A central theme of my work is **adjoint-based mesh adaptation**. During my Ph.D., in joint work with my advisor Prof. Guanghui Hu, I developed an automatic dual-consistent mesh adaptation method for the steady Euler equations within [AFVM4CFD](https://ghhu.github.io/software.html), the CFD library maintained by our group, and proposed a hybrid CNN+Dual approach that significantly accelerates the adaptation procedure.
 
 **Multi-mesh method for multi-target functionals.** Real applications often involve nonlinear or composite functionals beyond simple drag/lift, where existing theoretical guarantees no longer apply. A multi-mesh framework offers a principled way to handle such cases by allocating an adapted mesh to each target.
 
 <figure>
-    <img src="../images/multimeshProcess.png" alt="Multi-mesh process" style="width:75%;">
+    <img src="../images/multimeshProcess.png" alt="Multi-mesh process" style="width:100%;">
     <figcaption>Workflow of the multi-mesh adaptation procedure.</figcaption>
 </figure>
 
@@ -47,9 +41,9 @@ A central theme of my work is **adjoint-based mesh adaptation**. During my Ph.D.
 I view machine learning as a complement to&mdash;not a replacement for&mdash;classical numerical methods. My recent work explores **reinforcement learning for shape and geometry optimization**, with classical-method-informed learning frameworks: e.g., airfoil shape optimization driven by a CFD solver, and molecular geometry optimization driven by DFT.
 
 <figure>
-    <img src="../images/Loop.png" alt="RL training loop" style="width:48%;">
-    <img src="../images/Detail.png" alt="Algorithm detail" style="width:48%;">
-    <figcaption>Left: the overall RL optimization loop. Right: the mechanism-driven algorithmic details.</figcaption>
+    <img src="../images/Loop.png" alt="RL training loop" style="width:90%; display:block; margin:0 auto;">
+    <img src="../images/Detail.png" alt="Algorithm detail" style="width:90%; display:block; margin:0.8em auto 0;">
+    <figcaption>Top: the overall RL optimization loop. Bottom: the mechanism-driven algorithmic details.</figcaption>
 </figure>
 
 **Multi-agent exploration.** Multi-agent training accelerates data collection&mdash;a classical bottleneck of RL exploration&mdash;and naturally accommodates conventional optimization tools such as the adjoint method within the learning loop.
