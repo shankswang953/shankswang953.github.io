@@ -16,7 +16,7 @@ author_profile: true
 
 ## Guest Lecture &amp; Short Course
 
-- **Tianyuan Mathematics Center Short Course on AFEPack** &mdash; Xiamen University (online), January 2024  
+- **Tianyuan Mathematics Center Short Course on AFEPack** *(upcoming)* &mdash; Xiamen University (online), August 2026  
   Course materials: [GitHub repository](https://github.com/shankswang953/AFEPack_Tianyuan_shortcourse/tree/main)
 
 ## University of Macau
