@@ -14,6 +14,11 @@ author_profile: true
 - **MAT 241-004**: Calculus II &mdash; *2025 Spring*
 - **MAT 241-005**: Calculus II &mdash; *2025 Spring*
 
+## Guest Lecture &amp; Short Course
+
+- **Tianyuan Mathematics Center Short Course on AFEPack** &mdash; Xiamen University (online), January 2024  
+  Course materials: [GitHub repository](https://github.com/shankswang953/AFEPack_Tianyuan_shortcourse/tree/main)
+
 ## University of Macau
 *Macao S.A.R., China* &nbsp;&nbsp;|&nbsp;&nbsp; **Tutorial Class** &nbsp;&nbsp;|&nbsp;&nbsp; *Aug 2020 &ndash; Jul 2024*
 
