@@ -14,11 +14,6 @@ author_profile: true
 - **MAT 241-004**: Calculus II &mdash; *2025 Spring*
 - **MAT 241-005**: Calculus II &mdash; *2025 Spring*
 
-## Guest Lecture &amp; Short Course
-
-- **Tianyuan Mathematics Center Short Course on AFEPack** &mdash; online, August 2026  
-  Course materials: [Mesh Operations with AFEPack](https://github.com/shankswang953/AFEPack_Tianyuan_shortcourse/tree/main)
-
 ## University of Macau
 *Macao S.A.R., China* &nbsp;&nbsp;|&nbsp;&nbsp; **Tutorial Class** &nbsp;&nbsp;|&nbsp;&nbsp; *Aug 2020 &ndash; Jul 2024*
 
@@ -27,3 +22,8 @@ author_profile: true
 - **MATH-4000**: Elementary Number Theory &mdash; *2021 Fall, 2022 Fall, 2023 Fall*
 - **CISC-1006**: Probability and Statistics &mdash; *2022 Spring, 2023 Spring*
 - **MATH-1003**: Intermediate Calculus &mdash; *2024 Spring*
+
+## Academic Service
+
+- **Tianyuan Mathematics Center Short Course on AFEPack** &mdash; online  
+  Course materials: [Mesh Operations with AFEPack](https://github.com/shankswang953/AFEPack_Tianyuan_shortcourse/tree/main)
