@@ -7,7 +7,7 @@ author_profile: true
 
 <a class="research-back" href="{{ '/' | relative_url }}#research">&larr; Research overview</a>
 
-I study **dynamic and unbalanced optimal transport** and their applications to biological data. A particular focus is modeling how cell populations evolve over time while combining information from different measurement spaces.
+We investigate **optimal transport** and its applications to biological data. Our recent work focuses on modeling cell population dynamics by integrating information from datasets collected across different measurement modalities.
 
 ## COATI
 

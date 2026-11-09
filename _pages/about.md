@@ -40,7 +40,7 @@ I develop computational methods for biological data analysis, PDE-based simulati
     <div>
       <p class="research-topic__label">Optimal transport &amp; optimization</p>
       <h3 id="ot-operations-research-title"><a href="{{ '/optimal-transport-and-operations-research/' | relative_url }}">Optimal Transport &amp; Operations Research</a></h3>
-      <p>OTBD is a program I developed with Kaiwen Fang and Hanbin Yang. It uses GPU-accelerated optimal transport to evaluate Benders subproblems in mixed-integer optimization, including facility location and hub transport problems.</p>
+      <p>OTBD uses GPU-accelerated optimal transport to evaluate transport subproblems in mixed-integer optimization, including facility location and hub transport problems.</p>
       <a class="research-topic__link" href="{{ '/optimal-transport-and-operations-research/' | relative_url }}">Explore OTBD and computational results <span aria-hidden="true">&rarr;</span></a>
     </div>
   </section>
