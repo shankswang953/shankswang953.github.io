@@ -14,7 +14,7 @@ author_profile: true
 
   <li>Perry Beamer, Tanner Byer, Zixuan Cang*, <strong>Jingfeng Wang</strong>* (2025). <strong>Protein-Ligand Affinity Prediction via Topologically-Aware Graph Neural Network</strong>, <em>preprint</em>. <em>(Authors listed in alphabetical order)</em></li>
 
-  <li><strong>Jingfeng Wang</strong>, Yanxiang Zhao, Zixuan Cang (2025). <strong>Synchronized optimal transport for cross-modality trajectory inference integrating scRNA-seq and scATAC-seq</strong>, <em>preprint</em>.</li>
+  <li><strong>Jingfeng Wang</strong>, Yanxiang Zhao, Qing Nie, Zixuan Cang (2026). <a href="https://arxiv.org/html/2611.08853v1"><strong>Synchronized Optimal Transport Reconstructs Coupled Transcriptomic and Chromatin Dynamics</strong></a>, Submitted.</li>
 </ul>
 
 <h2>Published / Under Review</h2>

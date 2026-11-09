@@ -18,6 +18,7 @@ COATI reconstructs continuous cell-state dynamics from time-indexed single-cell 
 A flow learned in the RNA feature space is mapped into the ATAC space through a pretrained cross-modal map. Observations in both spaces constrain the dynamics, while each modality retains its own representation.
 
 <div class="research-resource-links" aria-label="COATI resources">
+  <a href="https://arxiv.org/html/2611.08853v1">Paper (arXiv) <span aria-hidden="true">&nearr;</span></a>
   <a href="https://shankswang953.github.io/COATI_website/index.html">Project website <span aria-hidden="true">&nearr;</span></a>
   <a href="https://github.com/shankswang953/COATI">Code on GitHub <span aria-hidden="true">&nearr;</span></a>
   <a href="https://shankswang953.github.io/COATI_website/tutorials.html">Tutorials <span aria-hidden="true">&nearr;</span></a>
@@ -42,5 +43,5 @@ The [project documentation](https://shankswang953.github.io/COATI_website/index.
 ## Related work
 
 - [Synchronization of unbalanced dynamical optimal transport across multiple spaces]({{ '/publication/sync_ot_multispaces' | relative_url }})
-- [Cross-modality trajectory inference integrating scRNA-seq and scATAC-seq]({{ '/publication/sync_ot_crossmodality' | relative_url }})
+- **Jingfeng Wang**, Yanxiang Zhao, Qing Nie, Zixuan Cang (2026). [Synchronized Optimal Transport Reconstructs Coupled Transcriptomic and Chromatin Dynamics](https://arxiv.org/html/2611.08853v1). Submitted.
 - [RAFT-UP: spatial transcriptomics alignment]({{ '/publication/raftup' | relative_url }})
