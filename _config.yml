@@ -144,6 +144,7 @@ include:
   - _pages
   - files
 exclude:
+  - _publications/protein_ligand_gnn.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

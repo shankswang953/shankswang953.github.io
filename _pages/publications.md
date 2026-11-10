@@ -12,18 +12,21 @@ author_profile: true
 <ul>
   <li><strong>Jingfeng Wang</strong>, Guanghui Hu (2025). <strong>A Neural-network based converging input with DWR-based mesh adaptation method for efficient quantity of interest calculation</strong>, <em>preprint</em>.</li>
 
+{% comment %}
   <li>Perry Beamer, Tanner Byer, Zixuan Cang*, <strong>Jingfeng Wang</strong>* (2025). <strong>Protein-Ligand Affinity Prediction via Topologically-Aware Graph Neural Network</strong>, <em>preprint</em>. <em>(Authors listed in alphabetical order)</em></li>
+{% endcomment %}
 
-  <li><strong>Jingfeng Wang</strong>, Yanxiang Zhao, Qing Nie, Zixuan Cang (2026). <a href="https://arxiv.org/html/2611.08853v1"><strong>Synchronized Optimal Transport Reconstructs Coupled Transcriptomic and Chromatin Dynamics</strong></a>, Submitted.</li>
 </ul>
 
 <h2>Published / Under Review</h2>
-<ol reversed>
+<ol reversed start="7">
+  <li><strong>Jingfeng Wang</strong>, Yanxiang Zhao, Qing Nie, Zixuan Cang (2026). <a href="https://arxiv.org/html/2611.08853v1"><strong>Synchronized Optimal Transport Reconstructs Coupled Transcriptomic and Chromatin Dynamics</strong></a>, Under review.</li>
+
   <li>Yaqi Wu, <strong>Jingfeng Wang</strong>, Xin Maizie Zhou, Yanxiang Zhao, Zixuan Cang (2025). <a href="https://arxiv.org/pdf/2603.18249"><strong>RAFT-UP: robust alignment for spatial transcriptomics under partial-overlapping</strong></a>, Under review.</li>
 
   <li>Zixuan Cang, <strong>Jingfeng Wang</strong>, Xiaoqi Wei, Yanxiang Zhao (2026). <a href="https://arxiv.org/pdf/2602.18725"><strong>Synchronization of Unbalanced Dynamical Optimal Transport across Multiple Spaces</strong></a>, Under review. <em>(Authors listed in alphabetical order)</em></li>
 
-  <li><strong>Jingfeng Wang</strong>, Guanghui Hu (2025). <a href="https://arxiv.org/abs/2403.04329"><strong>A mechanism-driven reinforcement learning framework for shape optimization of airfoils</strong></a>, Under revision by Communications in Computational Physics.</li>
+  <li><strong>Jingfeng Wang</strong>, Guanghui Hu (2025). <a href="https://arxiv.org/abs/2403.04329"><strong>A mechanism-driven reinforcement learning framework for shape optimization of airfoils</strong></a>, Under revision.</li>
 
   <li>Guanghui Hu, Ruo Li, <strong>Jingfeng Wang</strong>* (2025). <a href="https://doi.org/10.1016/j.jcp.2025.114054"><strong>A multi-mesh approach for accurate computation of multi-target functionals in aerodynamics design</strong></a>, Journal of Computational Physics, 535:114054.</li>
 

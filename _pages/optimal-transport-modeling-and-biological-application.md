@@ -43,5 +43,5 @@ The [project documentation](https://shankswang953.github.io/COATI_website/index.
 ## Related work
 
 - [Synchronization of unbalanced dynamical optimal transport across multiple spaces]({{ '/publication/sync_ot_multispaces' | relative_url }})
-- **Jingfeng Wang**, Yanxiang Zhao, Qing Nie, Zixuan Cang (2026). [Synchronized Optimal Transport Reconstructs Coupled Transcriptomic and Chromatin Dynamics](https://arxiv.org/html/2611.08853v1). Submitted.
+- **Jingfeng Wang**, Yanxiang Zhao, Qing Nie, Zixuan Cang (2026). [Synchronized Optimal Transport Reconstructs Coupled Transcriptomic and Chromatin Dynamics](https://arxiv.org/html/2611.08853v1). Under review.
 - [RAFT-UP: spatial transcriptomics alignment]({{ '/publication/raftup' | relative_url }})
